@@ -131,7 +131,7 @@ class Player(wavelink.Player):
         self.updating = True
 
         embed = discord.Embed(title='Music Controller',
-                              description=f'<a:eq:545194963810648077>Now Playing:```ini\n{track.title}\n\n'
+                              description=f'Now Playing:```ini\n{track.title}\n\n'
                               f'[EQ]: {self.eq}\n'
                               f'[Presets]: Flat/Boost/Piano/Metal```',
                               colour=0xffb347)
